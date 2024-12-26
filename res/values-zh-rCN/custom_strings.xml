@@ -16,77 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Now Bar -->
-    <string name="keyguard_now_bar_enabled_title">Now Bar</string>
-    <string name="keyguard_now_bar_enabled_summary">启用 Now Bar 锁屏小部件</string>
-
-    <!-- Power Menu Styles -->
-    <string name="powermenu_style_title">电源菜单样式</string>
-    <string name="powermenu_style1">赛博朋克</string>
-    <string name="powermenu_style2">Duoline</string>
-    <string name="powermenu_style3">IOS</string>
-    <string name="powermenu_style4">分层</string>
-
-    <!-- QS Header Clock Styles -->
-    <string name="qs_header_clock_style_title">QS 头部时钟样式</string>
-    <string name="qs_header_style1">芯片</string>
-    <string name="qs_header_style2">Oxygen 氧</string>
-    <string name="qs_header_style3">模拟</string>
-    <string name="qs_header_style4">极简</string>
-
-    <!-- Peek Display Styles -->
-    <string name="peek_display_minimalist">极简风格</string>
-    <string name="peek_display_style_title">预览显示样式</string>
-
-    <!-- Notification Styles -->
-    <string name="notif_style_title">通知样式</string>
-    <string name="notif_style1">赛博朋克</string>
-    <string name="notif_style2">Duoline</string>
-    <string name="notif_style3">IOS</string>
-    <string name="notif_style4">分层</string>
-
-    <!-- Progress Bar Styles -->
-    <string name="progress_bar_style_title">进度条样式</string>
-    <string name="progress_bar_style1">方块滑块</string>
-    <string name="progress_bar_style2">极简滑块</string>
-    <string name="progress_bar_style3">轮廓滑块</string>
-    <string name="progress_bar_style4">Shishu</string>
-
-    <!-- Lockscreen Widgets Styles -->
-    <string name="lockscreen_widgets_style_title">锁屏部件样式</string>
-    <string name="lockscreen_widgets_style1">Material 圆形</string>
-    <string name="lockscreen_widgets_style2">Material 方形</string>
-    <string name="lockscreen_widgets_style3">半透明</string>
-
-    <!-- Sidebar -->
-    <string name="sidebar_title">侧边栏</string>
-    <string name="sidebar_summary">在悬浮窗口中快速打开应用程序</string>
-
-    <!-- Peek Display -->
-    <string name="peek_display_notifications_title">预览显示</string>
-    <string name="peek_display_notifications_summary">极简锁屏通知样式</string>
-    <string name="peek_display_location_title">预览显示位置</string>
-    <string name="peek_display_bottom_margin_title">预览显示（底部）顶部边距</string>
-
-    <!-- Dashboard Revamped -->
-    <string name="colors_title">颜色</string>
-    <string name="fonts_title">字体</string>
-    <string name="fonts_summary">RISING123\nABCDEFGHIJKL\n0123456789</string>
-
-    <!-- Wallpaper Styles -->
-    <string name="wallpaper_settings_title">壁纸样式</string>
-    <string name="wallpaper_settings_summary">配置壁纸样式和设置</string>
+    <!-- Wallpaper blur -->
     <string name="wallpaper_blur_title">壁纸模糊</string>
     <string name="wallpaper_blur_summary">启用或禁用壁纸模糊效果</string>
-    <string name="wallpaper_blur_filter">壁纸模糊风格</string>
-    <string name="wallpaper_dim_title">壁纸暗度</string>
-    <string name="wallpaper_dim_level_title">壁纸暗度</string>
-    <string name="wallpaper_dim_level_summary">配置壁纸暗度等级</string>
-    <string name="glass_blur">玻璃</string>
-    <string name="frosted_blur">磨砂</string>
-    <string name="wallpaper_styles_footer">
-        要使壁纸样式有效，用户必须在不同的时间为锁屏和主屏幕设置壁纸。可以使用相同的壁纸，但不能同时应用于锁屏和主屏幕
-    </string>
 
     <!-- Circle to search -->
     <string name="search_press_hold_gesture_summary">按住导航栏以搜索屏幕内容</string>
@@ -207,7 +139,7 @@
     <string name="user_card_summary">管理用户设置</string>
 
     <!-- QS fling animation -->
-    <string name="fling_animation_duration_title">QS 下拉动画持续时间</string>
+    <string name="fling_animation_duration_title">快捷设置下拉动画持续时间</string>
 
     <!-- Cache cleaner -->
     <string name="cache_cleaner_title">缓存清理器</string>
@@ -232,7 +164,7 @@
     <string name="smart_5g_summary">自动切换 5G 和 4G 以减少电池消耗</string>
 
     <!-- BootAnimation Styles -->
-    <string name="boot_animation_styles_title">开机动画</string>
+    <string name="boot_animation_styles_title">开机动画样式</string>
     <string name="boot_animation_applied">已应用开机动画</string>
 
     <!-- Play Integrit Fix JSON Update -->
@@ -254,8 +186,8 @@
     <string name="power_mode_unknown">未知</string>
 
     <!-- RAM Boost -->
-    <string name="ramboost_title">内存增强</string>
-    <string name="ramboost_summary">优先利用压缩内存 (ZRAM) 和交换空间（如果可用）来提高整体性能</string>
+    <string name="ramboost_title">RAM 增强</string>
+    <string name="ramboost_summary">优先利用压缩内存（ZRAM）和交换空间（如果可用）来提高整体性能</string>
 
     <!-- Black themes for dark mode -->
     <string name="black_theme_style_title">黑色主题样式</string>
@@ -308,8 +240,6 @@
     <string name="qs_widgets_photo_showcase_enabled_summary">在快捷设置中显示照片小部件 </string>
     <string name="qs_widgets_photo_showcase_image_title">快捷设置照片小部件图像</string>
     <string name="qs_widgets_photo_showcase_image_summary">为快捷设置照片小部件选择图像</string>
-    <string name="qs_widgets_player_enabled_title">快捷设置音乐小部件</string>
-    <string name="qs_widgets_player_enabled_summary">显示可通过滑动滑块访问的迷你音乐播放器小部件以取代默认的媒体播放器</string>
 
     <!-- Desktop Mode Settings -->
     <string name="desktop_mode_pc_title">桌面模式</string>
@@ -328,17 +258,13 @@
     <!-- Apply Button -->
     <string name="apply_change_button_title">应用</string>
 
-    <!-- Volume Panel -->
+    <!-- Volume Sound Haptics -->
     <string name="volume_sound_haptics_title">音量声音触觉</string>
-    <string name="volume_sound_haptics_summary">调整音量时启用声音反馈</string>
-    <string name="volume_panel_expandable_title">可展开的音量条</string>
-    <string name="volume_panel_expandable_summary">展开音量条，而不是从底部显示</string>
-    <string name="volume_panel_media_output_title">媒体输出图标</string>
-    <string name="volume_panel_media_output_summary">播放媒体时显示媒体输出图标</string>
+    <string name="volume_sound_haptics_summary">调整音量条进度时启用声音反馈</string>
 
     <!-- Compact QS Media Player-->
-    <string name="qs_compact_media_player_mode_title">紧凑型 QS 媒体播放器</string>
-    <string name="qs_compact_media_player_mode_summary">为 QS 媒体播放器启用紧凑模式</string>
+    <string name="qs_compact_media_player_mode_title">紧凑型快捷设置媒体播放器</string>
+    <string name="qs_compact_media_player_mode_summary">为快捷设置媒体播放器启用紧凑模式</string>
 
     <!-- Settings UI -->
     <string name="show_multi_user_avatar_on_homepage_title">在主页上显示多用户头像</string>
@@ -385,7 +311,6 @@
     <string name="dw_file_header_select_title">选择景深壁纸主题</string>
     <string name="dw_file_header_select_summary">从存储中选择景深壁纸主题图像</string>
     <string name="dw_wallpaper_enabled_title">景深壁纸</string>
-    <string name="dw_wallpaper_enabled_summary_tile">在壁纸上应用景深效果</string>
     <string name="dw_wallpaper_enabled_summary">启用受 iOS 启发的景深壁纸。需要主题图像</string>
     <string name="dw_wallpaper_opacity_title">景深壁纸不透明度</string>
     <string name="depth_wallpaper_offset_x_title">景深壁纸水平偏移</string>
@@ -436,10 +361,9 @@
     <string name="display_title">显示</string>
     <string name="ui_title">用户界面</string>
     <string name="toolbox_title">工具箱</string>
-    <string name="toolbox_summary">满足各种需求的工具</string>
+    <string name="toolbox_summary">系统功能</string>
     <string name="themes_title">主题</string>
-    <string name="themes_summary">你的设备、你的风格</string>
-    <string name="colors_summary">展现你的个性</string>
+    <string name="themes_summary">展现你的个性</string>
     <string name="spoofing_title">伪装</string>
     <string name="spoofing_title_summary">伪装为不同的设备来解锁应用程序功能</string>
     <string name="security_title">安全性</string>
@@ -487,7 +411,7 @@
     <string name="notif_settings_title">通知</string>
     <string name="notif_settings_summary">控制通知等</string>
     <string name="qs_settings_title">快捷设置</string>
-    <string name="qs_settings_summary">自定义快捷设置</string>
+    <string name="qs_settings_summary">快捷设置自定义</string>
     <string name="sound_settings_title">声音</string>
     <string name="sound_settings_summary">声音和振动自定义</string>
     <string name="sb_settings_title">状态栏</string>
@@ -536,9 +460,6 @@
     <string name="reevaluating_theme">正在重新加载系统主题...</string>
     <string name="wellbeing_title">Google 健康</string>
     <string name="default_value">默认</string>
-    <string name="top">顶部</string>
-    <string name="bottom">底部</string>
-    <string name="highlights_title">探索功能</string>
 
     <!-- About risingOS -->
     <string name="about_rising">关于 risingOS</string>
@@ -752,28 +673,21 @@
     <string name="monet_engine_color_override_title">自定义颜色</string>
     <string name="monet_engine_luminance_factor_title">亮度</string>
     <string name="monet_engine_luminance_factor_summary">数值越高颜色越亮</string>
-    <string name="monet_engine_chroma_factor_title">色度</string>
+    <string name="monet_engine_chroma_factor_title">色度系数</string>
     <string name="monet_engine_chroma_factor_summary">数值越高颜色越鲜艳</string>
     <string name="monet_engine_tint_background_title">背景色调</string>
-    <string name="monet_engine_tint_background_summary">使亮度和色度选择也影响背景颜色</string>
-    <string name="monet_engine_style_title">主题风格</string>
-    <string name="monet_engine_style_tonal_spot">色调点</string>
+    <string name="monet_engine_tint_background_summary">让背景色彩也使用自定义亮度和彩度</string>
+    <string name="monet_engine_style_title">主题样式</string>
+    <string name="monet_engine_style_tonal_spot">色调点 (默认)</string>
     <string name="monet_engine_style_vibrant">鲜艳</string>
     <string name="monet_engine_style_expressive">表现力</string>
-    <string name="monet_engine_style_spritz">浅色</string>
+    <string name="monet_engine_style_spritz">喷雾</string>
     <string name="monet_engine_style_rainbow">彩虹</string>
     <string name="monet_engine_style_fruit_salad">水果沙拉</string>
     <string name="monet_engine_style_content">内容</string>
-    <string name="monet_engine_style_monochromatic">单色调</string>
-    <string name="monet_engine_style_clock">时钟</string>
-    <string name="monet_engine_style_clock_vibrant">活力时钟</string>
-    <string name="monet_engine_color_source_title">色彩源</string>
-    <string name="monet_engine_color_source_both">两者（默认）</string>
-    <string name="monet_engine_color_source_home">主页壁纸</string>
-    <string name="monet_engine_color_source_lock">锁屏壁纸</string>
-    <string name="monet_engine_color_source_preset">预设</string>
-    <string name="monet_engine_whole_palette_title">统一调色板</string>
-    <string name="monet_engine_whole_palette_summary">使亮度和色度选择也影响次要颜色</string>
+    <string name="monet_engine_style_monochromatic">Monochromatic</string>
+    <string name="monet_engine_style_clock">Clock</string>
+    <string name="monet_engine_style_clock_vibrant">Clock Vibrant</string>
 
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">输入正确的 PIN 码后自动解锁。注意：这比点击回车确认的安全性稍低</string>
@@ -1576,12 +1490,6 @@
     <string name="qs_tile_animation_style_rotate">旋转</string>
     <string name="qs_tile_animation_style_flipx">翻转 X</string>
     <string name="qs_tile_animation_style_flipy">翻转 Y</string>
-    <string name="qs_tile_animation_style_shake">摇晃</string>
-    <string name="qs_tile_animation_style_fade_in">淡入淡出</string>
-    <string name="qs_tile_animation_style_bounce_x">弹跳 X</string>
-    <string name="qs_tile_animation_style_bounce_y">弹跳 Y</string>
-    <string name="qs_tile_animation_style_pulse_x">脉冲 X</string>
-    <string name="qs_tile_animation_style_pulse_y">脉冲 Y</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">线性</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">减速</string>
@@ -1608,8 +1516,6 @@
     <string name="qs_tile_hide_label_summary">仅在磁贴中显示图标</string>
     <string name="qs_tile_vertical_layout_title">垂直布局</string>
     <string name="qs_tile_vertical_layout_summary">在图标下方显示标签，而不是图标旁边</string>
-    <string name="qs_tile_label_size_title">快捷设置磁贴标签字体大小</string>
-    <string name="qs_tile_summary_size_title">快捷设置磁贴摘要字体大小</string>
 
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">时钟背景</string>
@@ -1896,7 +1802,6 @@
     <string name="font_styles_summary">更改系统字体样式</string>
     <string name="font_preview_text">敏捷的棕色狐狸\n跨过懒惰的狗\n\nABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijkl\nmnopqrstuvwxyz\n1234567890</string>
     <string name="apply_button_text">应用</string>
-    <string name="font_picker_select_font">选择字体</string>
 
     <!-- Sound Engine -->
     <string name="ad_sound_engine_title">声音引擎&#8482;</string>
@@ -1930,7 +1835,7 @@
     <string name="custom_clock_style">自定义时钟样式</string>
 
     <!-- Lockscreen widgets  -->
-    <string name="lockscreen_widgets_title">小部件</string>
+    <string name="lockscreen_widgets_title">锁屏小部件</string>
     <string name="lockscreen_widgets_enabled_title">启用锁屏小部件</string>
     <string name="lockscreen_widgets_enabled_summary">将小部件添加到锁屏</string>
     <string name="lockscreen_display_widgets_title">设备信息小部件</string>
@@ -1938,11 +1843,11 @@
 	<string name="large_widgets_category_title">大部件</string>
     <string name="main_custom_widgets1">大部件 1</string>
     <string name="main_custom_widgets2">大部件 2</string>
-    <string name="mini_widgets_category_title">小部件</string>
-    <string name="custom_widgets1">小部件 1</string>
-    <string name="custom_widgets2">小部件 2</string>
-    <string name="custom_widgets3">小部件 3</string>
-    <string name="custom_widgets4">小部件 4</string>
+    <string name="mini_widgets_category_title">迷你小部件</string>
+    <string name="custom_widgets1">迷你小部件 1</string>
+    <string name="custom_widgets2">迷你小部件 2</string>
+    <string name="custom_widgets3">迷你小部件 3</string>
+    <string name="custom_widgets4">迷你小部件 4</string>
     <string name="camera">相机</string>
     <string name="clock_timer">时钟/定时器</string>
     <string name="calculator">计算器</string>
@@ -1955,7 +1860,6 @@
     <string name="data">数据</string>
     <string name="ringer">振铃器</string>
     <string name="bt">蓝牙</string>
-    <string name="hotspot">热点</string>
 
     <!-- Volume Styles -->
     <string name="revamped_aosp_style">改进的 AOSP UI 风格</string>
@@ -2013,7 +1917,7 @@
     <string name="settings_homepage_showcase_title">设备展示小部件</string>
     <string name="settings_homepage_showcase_summary">在主页上展示设备</string>
     <string name="search_bar_style_title">搜索栏样式</string>
-    <string name="settings_sb_style_1">Android 15 (焕然一新)</string>
+    <string name="settings_sb_style_1">Android 15（改版）</string>
 
     <!-- GMS Spoof -->
     <string name="gms_spoof_title">启用 GMS 伪装</string>
@@ -2083,8 +1987,4 @@
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">运营商名称</string>
     <string name="lockscreen_show_carrier_summary">在状态栏中显示运营商名称</string>
-
-    <!-- Android P animation style -->
-    <string name="pie_animation_style_title">Android P 动画风格</string>
-    <string name="pie_animation_style_summary">启用 Android P “默认” 动画</string>
 </resources>
