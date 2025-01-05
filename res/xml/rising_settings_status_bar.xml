@@ -32,6 +32,12 @@
             lineage:position="top" />
 
         <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="status_bar_lyric_settings"
+            android:title="@string/status_bar_lyric_title"
+            android:summary="@string/status_bar_lyric_summary"
+            android:fragment="com.rising.settings.fragments.StatusbarLyricSettings"/>
+
+        <com.android.settings.preferences.ui.AdaptivePreference
             android:key="status_bar_icons"
             android:title="@string/status_bar_icons_title"
             android:summary="@string/status_bar_icons_summary"
