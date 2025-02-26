@@ -15,57 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Notifications/Island notification -->
-    <string name="notifications_island_notification_title">岛屿通知</string>
-    <string name="notifications_island_notification_summary">以IOS中灵动岛的样式显示弹出通知</string>
-
-    <!-- Hide NavBar space -->
-    <string name="hide_ime_space_style_title">隐藏导航栏空隙样式</string>
-    <string name="hide_ime_space_style_1">狭窄空隙</string>
-    <string name="hide_ime_space_style_2">无空隙 (隐藏键盘按钮)</string>
-
-    <!-- Freeform launch mode -->
-    <string name="freeform_launch_mode_title">自由窗口启动模式</string>
-    <string name="freeform_launch_mode_1">AOSP原生</string>
-    <string name="freeform_launch_mode_2">LMOFreeForm</string>
-
-    <!-- Brightness bar styles -->
-    <string name="brightness_bar_style_title">亮度条样式</string>
-    <string name="brightness_bar_style1">厚边 Acun</string>
-    <string name="brightness_bar_style2">树叶状 Bang</string>
-    <string name="brightness_bar_style3">赛博朋克</string>
-    <string name="brightness_bar_style4">渐变圆角条</string>
-    <string name="brightness_bar_style5">树叶状描边</string>
-    <string name="brightness_bar_style6">小拇指</string>
-    <string name="brightness_bar_style7">描边</string>
-    <string name="brightness_bar_style8">圆角进度条</string>
-    <string name="brightness_bar_style9">阴影</string>
-    <string name="brightness_bar_style10">细线</string>
-    <string name="brightness_bar_style11">半透明</string>
-
-    <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">剪贴板超时自动清除</string>
-    <string name="clipboard_auto_clear_title">自动清除剪贴板</string>
-    <string name="clipboard_auto_clear_summary">定时自动清除剪贴板</string>
-    <string name="clipboard_auto_clear_enabled_title">剪贴板自动清除</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">关闭剪贴板</string>
-
-    <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">循环切换模式</string>
-    <string name="prevent_ringing_option_cycle_summary">启用 (循环切换模式)</string>
-
-    <!-- Tensor spoof -->
-    <string name="tensor_spoof_title">伪装Tensor特性</string>
-    <string name="tensor_spoof_summary">解锁Tensor/Pixel特性</string>
-    <string name="tensor_spoof_option_disabled">Tensor特性在这台设备上始终启用</string>
-
-    <!-- AOD Settings -->
-    <string name="aod_display_category_title">始终显示</string>
-    <string name="aod_pulse_category_title">脉冲/瞌睡</string>
-
-    <!-- Split Shade -->
-    <string name="qs_split_shade_enabled_title">更好的横屏QS面板 (实验性)</string>
-    <string name="qs_split_shade_enabled_summary">启用新的实验性的快速设置面板分隔,\n将会使横屏弹出通知不可用</string>
 
     <!-- Now Bar -->
     <string name="keyguard_now_bar_enabled_title">Now Bar</string>
@@ -107,10 +56,7 @@
     <string name="lockscreen_widgets_style_title">锁屏部件样式</string>
     <string name="lockscreen_widgets_style1">Material 圆形</string>
     <string name="lockscreen_widgets_style2">Material 方形</string>
-    <string name="lockscreen_widgets_style3">半透明 (清晰)</string>
-    <string name="lockscreen_widgets_style4">半透明 (柔和)</string>
-    <string name="lockscreen_widgets_transparency_title">半透明部件透明样式</string>
-    <string name="lockscreen_widgets_transparency_summary">配置半透明样式部件的透明度</string>
+    <string name="lockscreen_widgets_style3">半透明</string>
 
     <!-- Sidebar -->
     <string name="sidebar_title">侧边栏</string>
@@ -867,13 +813,6 @@
     <string name="edge_light_repeat_animation_summary_on">重复直到超时</string>
     <string name="edge_light_repeat_animation_summary_off">只显示一次</string>
     <string name="edge_light_color_mode_title">边缘闪光颜色</string>
-    <string name="edge_light_enabled_title">启用边缘闪光</string>
-    <string name="edge_light_rainbow_gradient">彩虹渐变</string>
-    <string name="edge_light_style_title">边缘闪光样式</string>
-    <string name="edge_light_stroke_width_title">边缘闪光宽度</string>
-    <string name="edge_light_stroke_width_summary">配置边缘闪光厚度</string>
-    <string name="edge_light_style_1">线性</string>
-    <string name="edge_light_style_2">闪烁/脉动</string>
 
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">音乐磁贴</string>
@@ -1421,7 +1360,6 @@
     <string name="volume_panel_category">音量面板</string>
     <string name="volume_dialog_timeout_title">音量面板超时</string>
     <string name="volume_panel_on_left_title">音量面板居左</string>
-    <string name="volume_panel_on_left_summary">在屏幕左侧显示音量面板对话框</string>
 
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">视频模式</string>
@@ -1469,13 +1407,6 @@
     <string name="custom_timeout_summary_2hours">2 小时</string>
     <string name="custom_timeout_summary_4hours">4 小时</string>
     <string name="custom_timeout_summary_8hours">8 小时</string>
-    <string name="custom_timeout_summary_12hours">12 小时</string>
-    <string name="custom_timeout_summary_24hours">24 小时</string>
-    <string name="custom_timeout_summary_36hours">36 小时</string>
-    <string name="custom_timeout_summary_48hours">48 小时</string>
-    <string name="custom_timeout_summary_72hours">72 小时</string>
-    <!-- Default Timeouts -->
-    <string name="custom_timeout_summary_1hour_def">1 小时 (默认)</string>
 
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_ap_band_title">AP 频段</string>
@@ -1665,24 +1596,20 @@
     <string name="screenshot_shutter_sound_summary">截图时播放音效</string>
 
     <!-- QS tiles layout -->
+    <string name="qs_tile_layout_title">快捷设置磁贴布局</string>
+    <string name="qs_tile_layout_summary">在快捷设置面板中自定义磁贴布局</string>
+    <string name="qs_tiles_layout_category">磁贴布局</string>
+    <string name="qs_rows_portrait_title">展开时行数（竖屏）</string>
+    <string name="qqs_rows_portrait_title">行数（竖屏）</string>
+    <string name="qs_columns_portrait_title">列数（竖屏）</string>
     <string name="qs_apply_change_button_title">应用更改</string>
     <string name="qs_apply_change_failed">无法应用更改</string>
-    <string name="qs_layout_category_title">快捷设置磁贴布局</string>
-    <string name="qs_layout_category_summary">在快捷设置面板中自定义磁贴布局</string>
-    <string name="qs_tile_label_hide_title">隐藏标签</string>
+    <string name="qs_tile_hide_label_title">隐藏标签</string>
+    <string name="qs_tile_hide_label_summary">仅在磁贴中显示图标</string>
+    <string name="qs_tile_vertical_layout_title">垂直布局</string>
+    <string name="qs_tile_vertical_layout_summary">在图标下方显示标签，而不是图标旁边</string>
     <string name="qs_tile_label_size_title">快捷设置磁贴标签字体大小</string>
-    <string name="qs_tile_label_hide_summary">仅在磁贴中显示图标</string>
-    <string name="qs_tile_layout_title">垂直布局</string>
-    <string name="qs_tile_layout_summary">在图标下方显示标签，而不是图标旁边</string>
-    <string name="qs_layout_columns_rows_title">列数 &amp; 行数</string>
-    <string name="qs_layout_columns_rows_summary">自定义快捷设置的列数和行数</string>
-    <string name="qs_layout_columns_rows_footer_text">快捷设置行数应该等于或大于QQS行数. 使用更多列数的圆形/方形 (A11) QS 磁贴样式.</string>
-    <string name="qs_columns_portrait_title">列数 (竖屏)</string>
-    <string name="qs_columns_landscape_title">列数 (横屏)</string>
-    <string name="qs_rows_portrait_title">行数（竖屏）</string>
-    <string name="qs_rows_landscape_title">行数 (横屏)</string>
-    <string name="qqs_rows_portrait_title">快捷 QS 行数 (竖屏)</string>
-    <string name="qqs_rows_landscape_title">快捷 QS 行数 (横屏)</string>
+    <string name="qs_tile_summary_size_title">快捷设置磁贴摘要字体大小</string>
 
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">时钟背景</string>
@@ -1694,7 +1621,7 @@
     <string name="solid_gradient_corner">纯重音渐变锐利</string>
     <string name="solid_gradient_void">渐变虚空</string>
     <string name="solid_gradient_neumorph">Neumorph 渐变</string>
-    <string name="solid_gradient_stroke">锐利渐变</string>
+    <string name="solid_gradient_rinkle">锐渐变描边</string>
     <string name="solid_accent_transperent">口音透明</string>
     <string name="solid_gradient_light">渐变光</string>
     <string name="solid_gradient_shape">锐渐变角</string>
@@ -1833,22 +1760,8 @@
     <string name="lockscreen_shortcut_remote">Google TV 遥控器</string>
     <string name="lockscreen_shortcut_dnd">勿扰</string>
     <string name="lockscreen_shortcut_none">无</string>
-    <string name="lockscreen_shortcut_app">自定义App</string>
     <string name="lockscreen_shortcut_enforce_title">强制快捷方式</string>
     <string name="lockscreen_shortcut_enforce_summary">如果选择的快捷方式不可用，请不要显示下一个可用的快捷方式</string>
-    <string name="lockscreen_shortcuts_summary">配置锁屏快速访问快捷方式</string>
-    <string name="keyguard_shortcut_custom_app_enabled_left_title">启用自定义App (左边)</string>
-    <string name="keyguard_shortcut_custom_app_enabled_right_title">启用自定义App (右边)</string>
-    <string name="keyguard_shortcut_custom_app_left_title">左边自定义App</string>
-    <string name="keyguard_shortcut_custom_app_right_title">右边自定义App</string>
-    <string name="keyguard_shortcut_left_summary">选择左侧快捷方式的行为.</string>
-    <string name="keyguard_shortcut_right_summary">选择右侧快捷方式的行为.</string>
-    <string name="keyguard_shortcut_custom_app_enabled_summary">为左边和右边的快捷方式启用自定义App.</string>
-    <string name="keyguard_shortcut_custom_app_left_summary">为左侧的快捷方式选择一个要启动的App.</string>
-    <string name="keyguard_shortcut_custom_app_right_summary">为右侧的快捷方式选择一个要启动的App.</string>
-    <string name="pick_package_left">选择左侧快捷方式的包</string>
-    <string name="pick_package_right">选择右侧快捷方式的包</string>
-    <string name="toast_package_selected">已选择: %1$s</string>
 
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
@@ -1977,11 +1890,6 @@
     <string name="nothing_launcher_customizations_title">自定义 Nothing 启动器</string>
     <string name="nothing_launcher_customizations_summary">自定义 Nothing 启动器主屏幕应用</string>
     <string name="quickswitch_not_supported">不支持 QuickSwitch；因为系统只有一个启动器</string>
-    <string name="quickswitch_footer_text">
-        注意: \n\n
-        1. 由于当前Android API 问题, Lawnchair启动器将使用Ortus启动器最近任务, 且将会覆盖任何设置为活动的QuickSwitch启动器. 为了更好地兼容第三方启动器, 请考虑将 QuickSwitch 启动器设置为 Ortus 或 Pixel Launcher.\n\n
-        2. 外部启动器 模块/修改 必须适配QuickSwitch功能以确保正常工作.
-    </string>
 
     <!-- Font styles -->
     <string name="font_styles_title">字体样式</string>
@@ -2176,17 +2084,7 @@
     <string name="lockscreen_show_carrier_title">运营商名称</string>
     <string name="lockscreen_show_carrier_summary">在状态栏中显示运营商名称</string>
 
-    <!-- System Animation styles -->
-    <string name="system_animation_style_title">系统动画样式</string>
-    <string name="pie_system_animation_style">Android P</string>
-    <string name="scale_system_animation_style">Scale</string>
-
-    <!-- Selected app spoofing -->
-    <string name="select_apps_to_spoof">选择要伪装的应用程序</string>
-    <string name="app_spoof_selector_title">应用伪装选择器</string>
-    <string name="app_spoof_selector_summary">选择要欺骗其属性的应用</string>
-    <string name="toggle_system_apps">显示系统应用</string>
-    <string name="toast_app_spoofing_success_add">已添加 %1$s 到伪装列表.</string>
-    <string name="toast_app_spoofing_success_remove">已从伪装列表中移除 %1$s .</string>
-    <string name="toast_app_spoofing_default_package">默认软件无法取消选择.</string>
+    <!-- Android P animation style -->
+    <string name="pie_animation_style_title">Android P 动画风格</string>
+    <string name="pie_animation_style_summary">启用 Android P “默认” 动画</string>
 </resources>
