@@ -109,13 +109,6 @@
     <string name="status_bar_logo_custom_color_title">Status bar logo custom color</string>
     <string name="status_bar_logo_custom_color_summary">Set status bar logo custom color</string>
 
-    <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">Status bar lyric</string>
-    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
-    <string name="status_bar_lyric_options_title">Options</string>
-    <string name="disguise_props_for_music_app_title">Disguise device for music apps</string>
-    <string name="disguise_props_for_music_app_summary">Disguise device in some music applications for support status bar lyric. After changing this toggle, you have to restart applications for the change to take effect.</string>
-
     <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings Styles</string>
     <string name="settings_dashboard_style_1">Rising Style</string>
