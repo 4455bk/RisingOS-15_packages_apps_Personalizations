@@ -91,9 +91,9 @@
     	    android:key="nowbar_margin_bottom"
     	    android:title="@string/now_bar_height_title"
     	    android:summary="@string/now_bar_height_summary"
-    	    android:defaultValue="18"
+    	    android:defaultValue="0"
     	    android:min="0"
-    	    android:max="210"
+    	    android:max="1000"
             android:dependency="keyguard_now_bar_enabled"
             lineage:position="bottom" />
 
