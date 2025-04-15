@@ -15,41 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Statusbar Custom color -->
-    <string name="status_bar_logo_use_custom_color_title">状态栏图标自定义颜色</string>
-    <string name="status_bar_logo_use_custom_color_summary">启用状态栏图标自定义颜色功能</string>
-    <string name="status_bar_logo_custom_color_title">状态栏图标颜色设置</string>
-    <string name="status_bar_logo_custom_color_summary">自定义状态栏图标的显示颜色</string>
-
-     <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">状态栏歌词</string>
-    <string name="status_bar_lyric_summary">在状态栏显示歌词 (需应用支持)</string>
-    <string name="status_bar_lyric_options_title">歌词选项</string>
-    <string name="disguise_props_for_music_app_title">对音乐应用伪装设备</string>
-    <string name="disguise_props_for_music_app_summary">为支持状态栏歌词功能，对部分音乐应用伪装设备信息。更改后需重启应用生效</string>
-
-    <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">设置界面样式</string>
-    <string name="settings_dashboard_style_1">Rising风格</string>
-    <string name="settings_dashboard_style_2">简约风格</string>
-
-    <!-- Nowbar height -->
-    <string name="notification_corner_radius_title">通知圆角半径</string>
-    <string name="notification_corner_radius_summary">调整通知的圆角半径</string>
-
-    <!-- Nowbar height -->
-    <string name="now_bar_height_title">Nowbar 高度</string>
-    <string name="now_bar_height_summary">调整Nowbar的高度</string>
-
-    <!-- Title for the option to use classic back gesture style -->
-    <string name="back_gesture_style_classic_title">使用简单的返回手势样式</string>
-    <!-- Summary for the option to use classic back gesture style -->
-    <string name="back_gesture_style_classic_summary">在新的虚线背景和简单的箭头样式之间切换</string>
-
-    <!-- Ongoing action chip -->
-    <string name="ongoing_action_chip_title">正在运行部件</string>
-    <string name="ongoing_action_chip_summary">在状态栏中显示正在进行的活动 (如下载) 的进度指示器</string> 
-
     <!-- Notifications/Island notification -->
     <string name="notifications_island_notification_title">岛屿通知</string>
     <string name="notifications_island_notification_summary">以IOS中灵动岛的样式显示弹出通知</string>
@@ -64,15 +29,19 @@
     <string name="freeform_launch_mode_1">AOSP原生</string>
     <string name="freeform_launch_mode_2">LMOFreeForm</string>
 
-    <!-- Clock size -->
-    <string name="statusbar_clock_size_title">时钟大小 (状态栏)</string>
-    <string name="qs_clock_size_title">时钟大小 (快捷设置)</string>
-
-    <!-- Hide applist -->
-    <string name="hide_applist_title">隐藏应用列表</string>
-    <string name="hide_applist_summary">防止其他应用检测应用列表中的选定应用</string>
-    <string name="menu_show_overlay">显示悬浮窗</string>
-    <string name="menu_hide_overlay">隐藏悬浮窗</string>
+    <!-- Brightness bar styles -->
+    <string name="brightness_bar_style_title">亮度条样式</string>
+    <string name="brightness_bar_style1">厚边 Acun</string>
+    <string name="brightness_bar_style2">树叶状 Bang</string>
+    <string name="brightness_bar_style3">赛博朋克</string>
+    <string name="brightness_bar_style4">渐变圆角条</string>
+    <string name="brightness_bar_style5">树叶状描边</string>
+    <string name="brightness_bar_style6">小拇指</string>
+    <string name="brightness_bar_style7">描边</string>
+    <string name="brightness_bar_style8">圆角进度条</string>
+    <string name="brightness_bar_style9">阴影</string>
+    <string name="brightness_bar_style10">细线</string>
+    <string name="brightness_bar_style11">半透明</string>
 
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_title">剪贴板超时自动清除</string>
@@ -2220,15 +2189,4 @@
     <string name="toast_app_spoofing_success_add">已添加 %1$s 到伪装列表.</string>
     <string name="toast_app_spoofing_success_remove">已从伪装列表中移除 %1$s .</string>
     <string name="toast_app_spoofing_default_package">默认软件无法取消选择.</string>
-
-    <!-- Idle manager -->
-    <string name="idle_manager_title">空闲管理器</string>
-    <string name="idle_manager_summary">设备空闲时，停止所有非必要的后台进程</string>
-
-    <!-- Settings New design Circle cards  -->
-    <string name="battery_fully_charged">已充满</string>
-    <string name="battery_charging">正在充电</string>
-    <string name="battery_discharging">未在充电</string>
-    <string name="storage_card_used">已用</string>
-    <string name="storage_available">可用</string>
 </resources>
