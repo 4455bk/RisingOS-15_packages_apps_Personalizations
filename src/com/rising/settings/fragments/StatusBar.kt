@@ -54,7 +54,7 @@ class StatusBar : OptimizedSettingsFragment() {
         val leftSeekBar = findCachedPreference<CustomSeekBarPreference>(KEY_STATUSBAR_LEFT_PADDING)
         leftSeekBar?.let { seekBar ->
             resources?.let { res ->
-                val defaultLeftPadding = res.getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_start)
+                val defaultLeftPadding = 4
                 seekBar.setDefaultValue(defaultLeftPadding, true)
             }
         }
@@ -62,7 +62,7 @@ class StatusBar : OptimizedSettingsFragment() {
         val rightSeekBar = findCachedPreference<CustomSeekBarPreference>(KEY_STATUSBAR_RIGHT_PADDING)
         rightSeekBar?.let { seekBar ->
             resources?.let { res ->
-                val defaultRightPadding = res.getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_end)
+                val defaultRightPadding = 3
                 seekBar.setDefaultValue(defaultRightPadding, true)
             }
         }
@@ -70,7 +70,7 @@ class StatusBar : OptimizedSettingsFragment() {
         val topSeekbar = findCachedPreference<CustomSeekBarPreference>(KEY_STATUSBAR_TOP_PADDING)
         topSeekbar?.let { seekBar ->
             resources?.let { res ->
-                val defaultTopPadding = res.getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_top)
+                val defaultTopPadding = -4
                 seekBar.setDefaultValue(defaultTopPadding, true)
             }
         }
