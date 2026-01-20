@@ -38,6 +38,7 @@ import androidx.compose.ui.input.pointer.*
 import androidx.compose.ui.layout.*
 import androidx.compose.ui.platform.*
 import androidx.compose.ui.res.*
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.*
 import androidx.compose.ui.text.style.*
 import androidx.compose.ui.unit.*
@@ -195,7 +196,7 @@ private fun BoxScope.SizePicker(
                         val canAdd = if (span == 2) bigCount < 2 else smallCount < 4
                         
                         if (!canAdd) {
-                            val message = if (span == 2) "Row 1 is full (max 2 big widgets)" else "Row 2 is full (max 4 small widgets)"
+                            val message = if (span == 2) context.getString(R.string.row_1_full_message) else context.getString(R.string.row_2_full_message)
                             Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
                         } else {
                             onSelect(WidgetItem(widgetName, span))
@@ -228,7 +229,7 @@ private fun BoxScope.SizePicker(
     ) {
         Icon(
             Icons.Default.Close,
-            contentDescription = "Close",
+            contentDescription = stringResource(R.string.close),
             tint = onSurface()
         )
     }

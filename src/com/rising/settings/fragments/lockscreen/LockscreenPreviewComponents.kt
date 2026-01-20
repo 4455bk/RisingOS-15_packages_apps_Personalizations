@@ -28,8 +28,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.*
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.*
 import androidx.compose.ui.unit.*
+import com.android.settings.R
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -127,7 +129,7 @@ fun NowBarMusicPage() {
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Now Playing",
+                    text = stringResource(R.string.now_playing),
                     style = MaterialTheme.typography.bodySmall,
                     color = Color.White.copy(alpha = 0.8f),
                     maxLines = 1
@@ -222,7 +224,7 @@ fun NowBarBatteryPage() {
                 )
                 Spacer(modifier = Modifier.height(2.dp))
                 Text(
-                    text = "Charging",
+                    text = stringResource(R.string.charging),
                     style = MaterialTheme.typography.bodySmall,
                     color = Color.White.copy(alpha = 0.7f)
                 )
@@ -340,7 +342,7 @@ fun NotificationCard() {
                 modifier = Modifier.weight(1f)
             ) {
                 Text(
-                    text = "Messages • 2m ago",
+                    text = stringResource(R.string.messages),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -348,7 +350,7 @@ fun NotificationCard() {
                 Spacer(modifier = Modifier.height(4.dp))
 
                 Text(
-                    text = "New Message",
+                    text = stringResource(R.string.new_message),
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
@@ -357,7 +359,7 @@ fun NotificationCard() {
                 Spacer(modifier = Modifier.height(2.dp))
 
                 Text(
-                    text = "Hey! How are you doing?",
+                    text = stringResource(R.string.hey_how_are_you),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -374,7 +376,7 @@ fun NotificationCard() {
                 ) {
                     Icon(
                         imageVector = Icons.Default.Remove,
-                        contentDescription = "Minimize",
+                        contentDescription = stringResource(R.string.minimize),
                         modifier = Modifier.size(20.dp),
                         tint = MaterialTheme.colorScheme.primary
                     )
@@ -385,7 +387,7 @@ fun NotificationCard() {
                 ) {
                     Icon(
                         imageVector = Icons.Default.Close,
-                        contentDescription = "Dismiss",
+                        contentDescription = stringResource(R.string.dismiss),
                         modifier = Modifier.size(20.dp),
                         tint = MaterialTheme.colorScheme.primary
                     )

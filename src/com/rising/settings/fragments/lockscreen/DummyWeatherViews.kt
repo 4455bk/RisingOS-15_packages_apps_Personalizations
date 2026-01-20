@@ -21,6 +21,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Cloud
 import com.android.settings.R
@@ -87,14 +88,14 @@ class DummyWeatherTextView @JvmOverloads constructor(
         
         val parts = mutableListOf<String>()
         
-        parts.add("24°C")
+        parts.add(context.getString(R.string.weather_temperature_example))
         
         if (showLocation) {
-            parts.add("New Delhi")
+            parts.add(context.getString(R.string.weather_location_example))
         }
         
         if (showText) {
-            parts.add("Partly Cloudy")
+            parts.add(context.getString(R.string.weather_text_example))
         }
         
         text = parts.joinToString(" · ")

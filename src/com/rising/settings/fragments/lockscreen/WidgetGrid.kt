@@ -27,7 +27,9 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.draw.*
 import androidx.compose.ui.graphics.*
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.*
+import com.android.settings.R
 
 @Composable
 fun WidgetGrid(
@@ -203,7 +205,7 @@ fun WidgetGrid(
                         tint = Color.White.copy(alpha = 0.5f)
                     )
                     Text(
-                        text = "Tap to add widgets",
+                        text = stringResource(R.string.tap_to_add_widgets),
                         color = Color.White.copy(alpha = 0.7f),
                         style = MaterialTheme.typography.bodyMedium
                     )

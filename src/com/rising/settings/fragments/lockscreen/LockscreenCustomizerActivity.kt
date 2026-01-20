@@ -37,6 +37,7 @@ import androidx.compose.ui.graphics.*
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.platform.*
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.*
 import android.app.WallpaperManager
 import androidx.core.graphics.drawable.toBitmap
@@ -404,7 +405,7 @@ fun LockscreenCustomizer() {
                     } else {
                         Icon(
                             imageVector = Icons.Default.Check,
-                            contentDescription = "Apply Theme",
+                            contentDescription = stringResource(R.string.apply_theme),
                             tint = MaterialTheme.colorScheme.onPrimary
                         )
                     }
@@ -422,7 +423,7 @@ fun LockscreenCustomizer() {
                         ) + fadeOut(animationSpec = tween(300))
                     ) {
                         Text(
-                            text = if (isApplying) "Applying..." else "Apply Theme",
+                            text = if (isApplying) stringResource(R.string.applying) else stringResource(R.string.apply_theme),
                             color = MaterialTheme.colorScheme.onPrimary
                         )
                     }
@@ -446,7 +447,7 @@ fun LockscreenCustomizer() {
             ) {
                 Icon(
                     imageVector = if (showConfigPanel) Icons.Default.Close else Icons.Default.Settings,
-                    contentDescription = "Configure"
+                    contentDescription = stringResource(R.string.configure)
                 )
             }
         }
@@ -568,7 +569,7 @@ private suspend fun applyChangesAndRestart(
                 Handler(Looper.getMainLooper()).postDelayed({
                     android.widget.Toast.makeText(
                         context,
-                        "Settings applied successfully!",
+                        context.getString(R.string.settings_applied_successfully),
                         android.widget.Toast.LENGTH_SHORT
                     ).show()
                     onSuccess()
@@ -576,7 +577,7 @@ private suspend fun applyChangesAndRestart(
             } catch (e: Exception) {
                 android.widget.Toast.makeText(
                     context,
-                    "Settings saved. Please restart SystemUI manually if changes don't appear.",
+                    context.getString(R.string.settings_saved_restart_message),
                     android.widget.Toast.LENGTH_LONG
                 ).show()
                 onFailure()
@@ -586,7 +587,7 @@ private suspend fun applyChangesAndRestart(
         Handler(Looper.getMainLooper()).post {
             android.widget.Toast.makeText(
                 context,
-                "Settings saved. Please restart SystemUI manually if changes don't appear.",
+                context.getString(R.string.settings_saved_restart_message),
                 android.widget.Toast.LENGTH_LONG
             ).show()
             onFailure()
